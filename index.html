@@ -15,8 +15,12 @@
 <body class="debug">
   <header>
     <div class="container-fluid h-100 d-flex justify-content-around align-items-center ">
-      <div class="logo">
-        <img class="logo_img" src="asset/img/mobile-logo.png" alt="">boolean</div>
+      <div>
+        <img class="logo_img" src="asset/img/mobile-logo.png" alt="">
+      </div>
+      <div class="logo d-none d-md-block">
+        boolean
+      </div>
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text h-100">
@@ -24,12 +28,20 @@
         </div>
         <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" >
       </div>
-      <div class="icon_top_right d-flex justify-content-around ">
-        <i class="fa-solid fa-list"></i>
-        <i class="fa-solid fa-circle-question"></i>
-        <i class="fa-solid fa-ellipsis-vertical"></i>
-        <i class="fa-solid fa-bell"></i>
+      <div class="icon_top_right d-flex justify-content-around d-none d-md-flex  ">
+        <i class="fa-solid fa-list text-secondary"></i>
+        <i class="fa-solid fa-circle-question text-secondary"></i>
+        <i class="fa-solid fa-ellipsis-vertical text-secondary"></i>
       </div>
+      <div class="bell">
+        <div class="dropstart">
+          <i class="fa-solid fa-bell text-warning" data-bs-toggle="dropdown" aria-expanded="false"></i>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profilo</a></li>
+            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
       
     </div>
   </header>
