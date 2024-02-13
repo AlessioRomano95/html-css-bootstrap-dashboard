@@ -59,8 +59,108 @@
       </div>
     </div>
     <div class="col_right">
-      <div class="nav"></div>
-      <div class="contenuts"></div>
+      <div class="container-fluid ">
+        <div class="row nav align-items-center text-light">
+          <div class="col-12 col-lg-6">
+            <h1>Boolean <button type="button" class="btn btn-sm bg_blue text-light rounded-5 py-0">Piano blaze</button></h1>
+                <button type="button" class="btn btn-sm bg_blue text-light rounded-5 py-0">3 app</button>
+                <i class="fa-solid fa-angles-right"></i>
+                <button type="button" class="btn btn-sm bg_blue text-light rounded-5 py-0 d-lg-none">+</button>
+                <button type="button" class="btn btn-sm bg_blue text-light rounded-5 py-0 d-none d-lg-inline">Boolean mobile app</button>
+                <button type="button" class="btn btn-sm bg_blue text-light rounded-5 py-0 d-none d-lg-inline">Boolean web app</button>
+                <button type="button" class="btn btn-sm bg_blue text-light rounded-5 py-0 d-none d-lg-inline">Boolean blog app</button>
+          </div>
+          <div class="col-12 col-lg-3">Studenti online negli ultimi 30 minuti <br> <h2>125</h2></div>
+          <div class="col col-lg-2 order-first order-md-last">
+            <p class="align-middle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Nuovo Studente <i class="fa-regular fa-square-plus icon_navbar align-middle"></i></p>
+            <div class="offcanvas offcanvas-end width-canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <form action="">
+                  <div class="row">
+                    <div class="col">
+                      <div>
+                        <h5>Nome</h5>
+                        <input type="password" class="my-input"> 
+                      </div>   
+                      <div class="pt-2">
+                        <h5>Email</h5>
+                        <div class="input-group flex-nowrap">
+                          <span class="input-group-text" id="addon-wrapping">@</span>
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                      </div>  
+                      <div>
+                        <h5 class="pt-2">Indirizzo Email</h5>
+                        <div class="input-group flex-nowrap">
+                          <span class="input-group-text" id="addon-wrapping">@</span>
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                      </div>                   
+                    </div>
+                    <div class="col">
+                      <div>
+                        <h5>Cognome</h5>
+                        <input type="text" class="my-input">
+                      </div>
+                      <div>
+                        <h5 class="pt-2">Password</h5>
+                        <input type="password" class="my-input">
+                      </div>
+                      <div>
+                        <h5 class="pt-2">Password</h5>
+                        <input type="password" class="my-input">
+                      </div>
+                    </div>
+                  </div> 
+                  <h5 class="pt-2">Indirizzo</h5> 
+                  <div class="input-group input-group mb-3">                                          
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                  </div>
+                  <div class="row">
+                    <div class="col col-6">
+                      <h5>Città</h5>
+                      <input type="text" class="my-input">
+                    </div>
+                    <div class="col col-4">
+                      <h5>Stato</h5>
+                      <label for="States"></label>
+                      <select name="States" id="States" class="my-input-states">
+                        <option value="Scegli">Scegli...</option>
+                        <option value="Italia">Italia</option>
+                        <option value="Germania">Germania</option>
+                        <option value="Spagna">Spagna</option>
+                        <option value="Francia">Francia</option>
+                      </select>
+                    </div>
+                    <div class="col col-2">
+                      <h5>CAP</h5>
+                      <input type="text" class="my-input-cap">
+                    </div>
+                  </div>                                            
+                  <h5 class="pt-2">Foto</h5> 
+                  <div class="input-group mb-3">                                           
+                    <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                  </div>
+                  <input type="checkbox" required> Seleziona per proseguire    
+                  <div>
+                    <button type="submit" class="bg-primary text-light">Salva</button>   
+                    <button type="reset" class="bg-warning">Svuota</button>          
+                  </div>   
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      <div class="contenuts">
+        
+      </div>
     </div>
   </div>
 </div>
